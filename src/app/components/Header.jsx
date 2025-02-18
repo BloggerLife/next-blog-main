@@ -37,9 +37,9 @@ export default function Header() {
     <Navbar className="border-b-2">
       <Link
         href="/"
-        className="self-center whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white"
+        className="self-center whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white pl-2"
       >
-        <Image src="/logo.svg" alt="logo" width={150} height={100} />
+        <Image src="/logo.svg" alt="logo" width={120} height={80} />
       </Link>
       <form onSubmit={handleSubmit}>
         <TextInput
