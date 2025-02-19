@@ -1,48 +1,36 @@
 export default function About() {
-    return (
-      <div className='min-h-screen flex items-center justify-center'>
-        <div className='max-w-2xl mx-auto p-3 text-center'>
-          <div>
-            <h1 className='text-3xl font font-semibold text-center my-7'>
-              About Sahand&apos;s Blog
-            </h1>
-            <div className='text-md text-gray-500 flex flex-col gap-6'>
-              <p>
-                Welcome to Sahand&apos;s Blog! Created by Sahand Ghavidel, this blog
-                serves as a personal platform to share his insights and ideas with
-                the world. Sahand is an enthusiastic developer who enjoys writing
-                about technology, coding, and a variety of related topics.
-              </p>
-  
-              <p>
-                On this blog, you&apos;ll discover weekly articles and tutorials
-                covering a range of topics including web development, software
-                engineering, and programming languages. Sahand is continually
-                learning and exploring new technologies, so make sure to visit
-                frequently for the latest updates!
-              </p>
-  
-              <p>
-                This website is created using Next.js and{' '}
-                <a
-                  href='https://go.clerk.com/fgJHKlt'
-                  target='_blank'
-                  className='text-teal-500 hover:underline'
-                >
-                  Clerk
-                </a>
-                .
-              </p>
-  
-              <p>
-                We invite you to comment on our posts and interact with other
-                readers. You can like and reply to others&apos; comments as well. We
-                believe that a community of learners can support each other&apos;s
-                growth and development.
-              </p>
-            </div>
+  return (
+    <div className="py-12 mb-8 flex items-center justify-center">
+      <div className="max-w-2xl mx-auto p-3 text-center">
+        <div>
+          <h1 className="text-3xl font font-semibold text-center my-7">
+            About Wesay Blog
+          </h1>
+          <div className="text-md text-gray-500 flex flex-col gap-6">
+            <p>
+              Welcome to WesayBlog, your go-to destination for insightful
+              articles, engaging stories, and thought-provoking content. Our
+              team of dedicated writers and contributors are passionate about
+              covering a wide range of topics, from technology and science to
+              travel, lifestyle, and everything in between.
+            </p>
+
+            <p>
+              At WesayBlog, we strive to provide our readers with valuable
+              information, entertaining reads, and fresh perspectives on the
+              world around us. Whether you&apos;re looking for the latest
+              trends, helpful tips, or simply a good read to brighten your day,
+              you&apos;ll find it all right here.
+            </p>
+
+            <p>
+              Join us on this exciting journey as we explore, learn, and share
+              ideas together. Thank you for being a part of the WesayBlog
+              community!
+            </p>
           </div>
         </div>
       </div>
-    );
-  }
+    </div>
+  );
+}
