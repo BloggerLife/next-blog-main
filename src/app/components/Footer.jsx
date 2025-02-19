@@ -29,11 +29,11 @@ export default function FooterCom() {
               <Footer.Title title="About" />
               <Footer.LinkGroup col>
                 <Footer.Link
-                  href="https://www.100jsprojects.com"
+                  href="https://www.facebook.com/share/16AHCCbNgC/?mibextid=wwXIfr"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  100 JS Projects
+                  FB Community
                 </Footer.Link>
                 <Footer.Link
                   href="/about"
@@ -48,7 +48,7 @@ export default function FooterCom() {
               <Footer.Title title="Follow us" />
               <Footer.LinkGroup col>
                 <Footer.Link
-                  href="https://www.github.com/sahandghavidel"
+                  href="https://www.github.com/bloggerlife"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -74,7 +74,10 @@ export default function FooterCom() {
             year={new Date().getFullYear()}
           />
           <div className="flex gap-6 sm:mt-0 mt-4 sm:justify-center">
-            <Footer.Icon href="#" icon={BsFacebook} />
+            <Footer.Icon
+              href="https://www.facebook.com/share/16AHCCbNgC/?mibextid=wwXIfr"
+              icon={BsFacebook}
+            />
             <Footer.Icon href="#" icon={BsInstagram} />
             <Footer.Icon href="#" icon={BsTwitter} />
             <Footer.Icon
