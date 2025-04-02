@@ -39,3 +39,10 @@ body {
 .dark .post-content a {
   color: #ff492e;
 }
+
+.share-buttons {
+  padding-bottom: 2rem;
+  margin: auto;
+  display: inline-flex;
+  gap: 9px;
+}
